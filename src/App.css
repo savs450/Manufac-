@@ -1,10 +1,15 @@
 .App {
   display: flex;
-  flex-direction: column;
-  gap: 20px;
-  justify-content: center;
-  align-items: center;
-  background-color: lightgrey;
-  /* height: 100vh; */
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
 }
 
+.GammaTable{
+  overflow-x: auto;
+  width: 100%; 
+  white-space: nowrap;
+  padding: 20px;
+}
